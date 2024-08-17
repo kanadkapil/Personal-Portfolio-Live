@@ -33,26 +33,86 @@
 <body>
 
     <header>
-        <div class=" container mx-auto rounded-lg navbar bg-pink-600 my-2">
-            <div class="flex-1">
-                <a class="btn btn-ghost text-xl">daisyUI</a>
+        <nav class="fixed top-0 left-0 w-full bg-c3 shadow-lg z-50">
+            <div class="container mx-auto flex items-center justify-between p-4">
+                <!-- Brand -->
+                <a class="text-xl font-bold text-white mx-5" href="#page-top">Kanad Kapil</a>
+
+                <!-- Toggler for Mobile -->
+                <button class="text-white text-xl md:hidden" type="button" id="navbarToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- Navigation Menu -->
+                <div class="hidden md:flex flex-grow items-center justify-center space-x-4">
+                    <a class="text-white hover:text-gray-300" href="#portfolio">Portfolio</a>
+                    <a class="text-white hover:text-gray-300" href="#about">About</a>
+                    <a class="text-white hover:text-gray-300" href="#details">Details</a>
+                    <a class="text-white hover:text-gray-300" href="#certifications">Certifications</a>
+                    <a class="text-white hover:text-gray-300 flex items-center" href="#contact">
+                        <i class="fa-solid fa-phone fa-xs mr-2"></i> Contact
+                    </a>
+                </div>
+
+                <!-- Search Form -->
+                <form class="hidden md:flex items-center space-x-2">
+                    <input class="form-input border border-gray-300 rounded-md py-1 px-3 text-black" type="text"
+                        placeholder="Search.....">
+                    <button class="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
             </div>
-            <div class="flex-none">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Link</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="bg-base-100 rounded-t-none p-2">
-                                <li><a>Link 1</a></li>
-                                <li><a>Link 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                </ul>
+
+            <!-- Collapsible Menu for Mobile -->
+            <div class="md:hidden fixed inset-0 bg-black bg-opacity-75 z-40 hidden" id="navbarCollapse">
+                <div class="flex flex-col items-center justify-between h-full p-4 space-y-4 bg-c3">
+                    <!-- Close Button -->
+                    <button class="self-end text-white text-xl" id="navbarClose">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+
+                    <!-- Mobile Menu Links -->
+                    <div class="flex flex-col items-center space-y-4">
+                        <a class="text-white text-xl hover:text-gray-300" href="#portfolio">Portfolio</a>
+                        <a class="text-white text-xl hover:text-gray-300" href="#about">About</a>
+                        <a class="text-white text-xl hover:text-gray-300" href="#details">Details</a>
+                        <a class="text-white text-xl hover:text-gray-300" href="#certifications">Certifications</a>
+                        <a class="text-white text-xl hover:text-gray-300 flex items-center" href="#contact">
+                            <i class="fa-solid fa-phone fa-xs mr-2"></i> Contact
+                        </a>
+                    </div>
+
+                    <!-- Mobile Search Form -->
+                    <form class="flex flex-col items-center space-y-2">
+                        <input class="form-input border border-gray-300 rounded-md py-1 px-3 text-black" type="text"
+                            placeholder="Search.....">
+                        <button class="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
+
+    <!-- JavaScript for Mobile Toggle -->
+    <script>
+        document.getElementById('navbarToggle').addEventListener('click', function () {
+            document.getElementById('navbarCollapse').classList.toggle('hidden');
+        });
+
+        document.getElementById('navbarClose').addEventListener('click', function () {
+            document.getElementById('navbarCollapse').classList.add('hidden');
+        });
+    </script>
+
+
+
+    <!-- Content Below Navbar -->
+    <div class="pt-16"> <!-- Adjust the padding-top value as needed -->
+        <!-- Your page content goes here -->
+    </div>
 
     <!--! main body  -->
     <main>
@@ -140,7 +200,7 @@
         <!--* Hero Section End -->
 
         <!-- divider  -->
-        <div class="divider my-20">
+        <div class="divider my-48 md:my-20">
             <label class="swap swap-flip text-6xl">
                 <input type="checkbox" />
                 <div class="swap-on">💩</div>
