@@ -7,8 +7,7 @@
     <script src="https://cdn.tailwindcss.com" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity=""
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -32,25 +31,39 @@
 
 <body>
 
+    <!-- ! header  -->
     <header>
-        <nav class="fixed top-0 left-0 w-full bg-c3 shadow-lg z-50">
+        <nav class="fixed bg-gray-400 top-0 left-0 w-full my-1 shadow-lg z-50">
             <div class="container mx-auto flex items-center justify-between p-4">
+
                 <!-- Brand -->
-                <a class="text-xl font-bold text-white mx-5" href="#page-top">Kanad Kapil</a>
+                <a class="text-3xl font-bold" href="#page-top">
+                    <div class="divider ">
+                        <label class="swap swap-flip">
+                            <input type="checkbox" />
+                            <div class="swap-off">Kanad Kapil</div>
+                            <div class="swap-on text-center">🖕</div>
+                        </label>
+                    </div>
+                </a>
 
                 <!-- Toggler for Mobile -->
-                <button class="text-white text-xl md:hidden" type="button" id="navbarToggle">
+                <button class=" text-xl md:hidden" type="button" id="navbarToggle">
                     <i class="fa-solid fa-bars"></i>
                 </button>
 
                 <!-- Navigation Menu -->
-                <div class="hidden md:flex flex-grow items-center justify-center space-x-4">
-                    <a class="text-white hover:text-gray-300" href="#portfolio">Portfolio</a>
-                    <a class="text-white hover:text-gray-300" href="#about">About</a>
-                    <a class="text-white hover:text-gray-300" href="#details">Details</a>
-                    <a class="text-white hover:text-gray-300" href="#certifications">Certifications</a>
-                    <a class="text-white hover:text-gray-300 flex items-center" href="#contact">
+                <div class="hidden md:flex text-black flex-grow items-center justify-center space-x-4">
+                    <a class=" hover:text-gray-300" href="#portfolio">Portfolio</a>
+                    <a class=" hover:text-gray-300" href="#about">About</a>
+                    <a class=" hover:text-gray-300" href="#details">Details</a>
+                    <a class=" hover:text-gray-300" href="#certifications">Certifications</a>
+                    <a class=" hover:text-gray-300 flex items-center" href="#contact">
                         <i class="fa-solid fa-phone fa-xs mr-2"></i> Contact
+                    </a>
+                    <a class=" hover:text-gray-300 flex items-center" href="uploads/Kanad Kapil CV.pdf" download>
+                        <button class="btn bg-lime-200 text-black hover:bg-lime-300 py-2 px-4 rounded-lg">Download CV <i
+                                class="fa-solid fa-arrow-down ml-2"></i></button>
                     </a>
                 </div>
 
@@ -65,15 +78,15 @@
             </div>
 
             <!-- Collapsible Menu for Mobile -->
-            <div class="md:hidden fixed inset-0 bg-black bg-opacity-75 z-40 hidden" id="navbarCollapse">
-                <div class="flex flex-col items-center justify-between h-full p-4 space-y-4 bg-c3">
+            <div class="md:hidden fixed inset-0 bg-black bg-opacity-50 z-10 hidden" id="navbarCollapse">
+                <div class="flex flex-col items-center justify-between p-4 space-y-4">
                     <!-- Close Button -->
                     <button class="self-end text-white text-xl" id="navbarClose">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
 
                     <!-- Mobile Menu Links -->
-                    <div class="flex flex-col items-center space-y-4">
+                    <div class="flex flex-col items-center space-y-5">
                         <a class="text-white text-xl hover:text-gray-300" href="#portfolio">Portfolio</a>
                         <a class="text-white text-xl hover:text-gray-300" href="#about">About</a>
                         <a class="text-white text-xl hover:text-gray-300" href="#details">Details</a>
@@ -84,72 +97,64 @@
                     </div>
 
                     <!-- Mobile Search Form -->
-                    <form class="flex flex-col items-center space-y-2">
+                    <!-- <form class="flex flex-col items-center space-y-2">
                         <input class="form-input border border-gray-300 rounded-md py-1 px-3 text-black" type="text"
                             placeholder="Search.....">
                         <button class="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200" type="submit">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </button>
-                    </form>
+                    </form> -->
+
                 </div>
             </div>
         </nav>
     </header>
 
-    <!-- JavaScript for Mobile Toggle -->
-    <script>
-        document.getElementById('navbarToggle').addEventListener('click', function () {
-            document.getElementById('navbarCollapse').classList.toggle('hidden');
-        });
-
-        document.getElementById('navbarClose').addEventListener('click', function () {
-            document.getElementById('navbarCollapse').classList.add('hidden');
-        });
-    </script>
-
-
-
     <!-- Content Below Navbar -->
-    <div class="pt-16"> <!-- Adjust the padding-top value as needed -->
+    <!-- empty container  -->
+    <div class="pt-20"> <!-- Adjust the padding-top value as needed -->
         <!-- Your page content goes here -->
     </div>
+
 
     <!--! main body  -->
     <main>
 
         <!--* Hero Section -->
         <section>
-            <div class="min-h-screen bg-pink-200">
+            <div class="min-h-[860px] bg-pink-200 overflow-hidden">
                 <div class="px-4 sm:px-10">
-                    <div class="my-4 gap-4 grid sm:grid-cols-12 grid-cols-1">
+                    <div class="my-5 gap-4 grid sm:grid-cols-12 grid-cols-1">
+
                         <!--! Left Column -->
-                        <div class="min-h-[720px] rounded-lg shadow-lg bg-amber-400 sm:col-span-4 p-4">
+                        <div
+                            class="min-h-[860px] rounded-lg shadow-lg bg-amber-400 sm:col-span-4 p-4 flex flex-col overflow-y-auto">
                             <!--* Profile Picture -->
-                            <div class="flex justify-center items-center my-5">
+                            <div class="flex justify-center items-center my-4">
                                 <div class="avatar">
-                                    <div class="w-80 lg:w-96 rounded-full shadow-lg">
+                                    <div class="w-96 lg:w-96 rounded-full shadow-lg">
                                         <img src="PicA.png" alt="Kanad Kapil" />
                                     </div>
                                 </div>
                             </div>
 
                             <!--* ID Section -->
-                            <div class="mx-10 sm:mx-14 lg:mx-20 bg-violet-400 p-5 rounded-lg ">
+                            <div class="mx-10 sm:mx-14 lg:mx-20 bg-violet-400 p-5 rounded-lg flex-grow">
                                 <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold">Kanad Kapil</h2>
-                                <p class="font-bold text-lg sm:text-xl lg:text-xl my-5">
+                                <p class="font-bold text-lg sm:text-xl lg:text-xl my-4">
                                     Web Designer - Writer - Singer
                                 </p>
-                                <p class="text-lg sm:text-xl lg:text-2xl my-5">
+                                <p class="text-lg sm:text-xl lg:text-2xl my-4">
                                     Student
                                 </p>
-                                <p class="font-bold text-lg sm:text-xl lg:text-2xl my-5">
+                                <p class="font-bold text-lg sm:text-xl lg:text-2xl my-4">
                                     LPU, <br>
                                     B.Tech, CSE, 3rd Year
                                 </p>
                             </div>
 
                             <!--* Social Media Links -->
-                            <div class="mx-10 sm:mx-14 lg:mx-20 mt-10 bg-red-200 p-5 rounded-lg text-center">
+                            <div class="mx-10 sm:mx-14 lg:mx-20 mt-5 bg-red-200 p-5 rounded-lg text-center">
                                 <div class="flex justify-center space-x-4">
                                     <a href="https://github.com/kanadkapil"><i
                                             class="fa-brands fa-github fa-shake text-3xl sm:text-4xl lg:text-5xl"></i></a>
@@ -162,19 +167,12 @@
                                     <a href="https://www.facebook.com/kanad.kapil/"><i
                                             class="fa-brands fa-facebook-f text-3xl sm:text-4xl lg:text-5xl text-blue-800"></i></a>
                                 </div>
-                                <div class="mt-8">
-                                    <a href="uploads/Kanad Kapil CV.pdf" download>
-                                        <button
-                                            class="btn bg-lime-200 text-black hover:bg-lime-300 py-2 px-4 rounded-lg">Download
-                                            CV <i class="fa-solid fa-arrow-down ml-2"></i></button>
-                                    </a>
-                                </div>
                             </div>
                         </div>
 
                         <!--! Right Column -->
                         <div
-                            class="min-h-[720px] rounded-lg shadow-lg bg-violet-400 sm:col-span-8 p-4 flex flex-col justify-center items-center">
+                            class="min-h-[720px] rounded-lg shadow-lg bg-violet-400 sm:col-span-8 p-4 flex flex-col justify-center items-center overflow-y-auto">
                             <div class="text-left mx-4 sm:mx-8 lg:mx-16 my-10">
                                 <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
                                     About
@@ -199,8 +197,10 @@
         </section>
         <!--* Hero Section End -->
 
+
+
         <!-- divider  -->
-        <div class="divider my-48 md:my-20">
+        <div class="divider my-20 md:my-20">
             <label class="swap swap-flip text-6xl">
                 <input type="checkbox" />
                 <div class="swap-on">💩</div>
@@ -552,9 +552,8 @@
     <!--! main body ends -->
 
 
-    <!-- footer  -->
-    <!-- Footer starts -->
-    <footer class="bg-gray-800 text-white py-8">
+    <!-- ! footer  -->
+    <footer class="bg-gray-800 text-white my-2 py-8">
         <div class="container mx-auto">
             <div class="flex flex-wrap justify-between">
                 <!-- My YouTube -->
@@ -605,6 +604,16 @@
         </div>
     </footer>
 
+    <!-- JavaScript for Mobile Toggle -->
+    <script>
+        document.getElementById('navbarToggle').addEventListener('click', function () {
+            document.getElementById('navbarCollapse').classList.toggle('hidden');
+        });
+
+        document.getElementById('navbarClose').addEventListener('click', function () {
+            document.getElementById('navbarCollapse').classList.add('hidden');
+        });
+    </script>
 
 </body>
 
