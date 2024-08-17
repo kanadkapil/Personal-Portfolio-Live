@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="retro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        span {
+            font-family: "Poppins", sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <title>Anush Tup</title>
+</head>
+
+<body>
+
+    <header>
+        <div class=" container mx-auto rounded-lg navbar bg-pink-600 my-2">
+            <div class="flex-1">
+                <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+            <div class="flex-none">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Link</a></li>
+                    <li>
+                        <details>
+                            <summary>Parent</summary>
+                            <ul class="bg-base-100 rounded-t-none p-2">
+                                <li><a>Link 1</a></li>
+                                <li><a>Link 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--! main body  -->
+    <main>
+
+        <!--* Hero Section -->
+        <div class="min-h-screen bg-pink-200">
+            <div class="px-4 sm:px-10">
+                <div class="my-4 gap-4 grid sm:grid-cols-12 grid-cols-1">
+                    <!--! Left Column -->
+                    <div class="min-h-[720px] rounded-lg shadow-lg bg-amber-400 sm:col-span-4 p-4">
+                        <!--* Profile Picture -->
+                        <div class="flex justify-center items-center my-10">
+                            <div class="avatar">
+                                <div class="w-80 lg:w-96 rounded-full">
+                                    <img src="PicA.png" alt="Kanad Kapil" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--* ID Section -->
+                        <div class="mx-10 sm:mx-14 lg:mx-20 bg-violet-400 p-5 rounded-lg ">
+                            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold">Kanad Kapil</h2>
+                            <p class="font-bold text-lg sm:text-xl lg:text-xl my-5">
+                                Web Designer - Writer - Singer
+                            </p>
+                            <p class="text-lg sm:text-xl lg:text-2xl my-5">
+                                Student
+                            </p>
+                            <p class="font-bold text-lg sm:text-xl lg:text-2xl my-5">
+                                LPU, <br>
+                                B.Tech, CSE, 3rd Year
+                            </p>
+                        </div>
+
+                        <!--* Social Media Links -->
+                        <div class="mx-10 sm:mx-14 lg:mx-20 mt-10 bg-red-200 p-5 rounded-lg text-center">
+                            <div class="flex justify-center space-x-4">
+                                <a href="https://github.com/kanadkapil"><i
+                                        class="fa-brands fa-github fa-shake text-3xl sm:text-4xl lg:text-5xl"></i></a>
+                                <a href="https://www.linkedin.com/in/kanadkapil/"><i
+                                        class="fa-brands fa-linkedin fa-bounce text-3xl sm:text-4xl lg:text-5xl text-blue-800"></i></a>
+                                <a href="mailto:kanad.kapil@gmail.com"><i
+                                        class="fa-brands fa-google fa-beat-fade text-3xl sm:text-4xl lg:text-5xl text-lime-400"></i></a>
+                                <a href="https://www.instagram.com/kanad.kapil/"><i
+                                        class="fa-brands fa-instagram fa-spin text-3xl sm:text-4xl lg:text-5xl text-pink-600"></i></a>
+                                <a href="https://www.facebook.com/kanad.kapil/"><i
+                                        class="fa-brands fa-facebook-f text-3xl sm:text-4xl lg:text-5xl text-blue-800"></i></a>
+                            </div>
+                            <div class="mt-8">
+                                <a href="uploads/Kanad Kapil CV.pdf" download>
+                                    <button
+                                        class="btn bg-lime-200 text-black hover:bg-lime-300 py-2 px-4 rounded-lg">Download
+                                        CV <i class="fa-solid fa-arrow-down ml-2"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--! Right Column -->
+                    <div
+                        class="min-h-[720px] rounded-lg shadow-lg bg-violet-400 sm:col-span-8 p-4 flex flex-col justify-center items-center">
+                        <div class="text-left mx-4 sm:mx-8 lg:mx-16 my-10">
+                            <h3 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+                                About
+                            </h3>
+                            <p class="text-lg sm:text-2xl lg:text-3xl text-justify leading-relaxed">
+                                <span class="font-bold">Kanad Kapil</span> is a student, Web designer, Musician.
+                                Currently, he is pursuing B.Tech (CSE) from Lovely Professional University (LPU),
+                                Punjab. His SSC was in 2018, and HSC in 2020. He was born and brought up in Dhaka,
+                                Bangladesh. <br><br>
+                                Kanad Kapil is an enthusiastic, reliable, responsible, self-motivated person. He knows
+                                his field and forces himself to work hard. He handles situations maturely and
+                                efficiently. Taking challenges is his hobby. Handling pressure is one of the valuable
+                                skills he has.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--* Hero Section End -->
+
+
+        <div class="divider my-20"> <label class="swap swap-flip text-6xl">
+                <input type="checkbox" />
+
+                <div class="swap-on">💩</div>
+                <div class="swap-off">💀</div>
+            </label>
+        </div>
+
+        <!--* row 2 -->
+        <div class="p-2 text-gray-900" id="details">
+            <div class="flex flex-wrap p-5 bg-white">
+                <!-- Details Section -->
+                <div class="w-full md:w-2/3 p-2">
+                    <div class="bg-violet-200 p-5 shadow-lg rounded-lg">
+                        <h1 class="mb-5 text-3xl font-bold">
+                            Details
+                        </h1>
+                        <p class="text-lg leading-relaxed">
+                            I am a dedicated student with a passion for web design, having honed my skills in HTML, CSS,
+                            Bootstrap,
+                            and PHP over a period of three years. My journey in the world of web development began as a
+                            student, and I
+                            continue to expand my knowledge in this field. My ultimate goal is to become a proficient
+                            full stack
+                            developer, equipped with the skills not only to create stunning digital experiences but also
+                            to ensure
+                            their security. <br><br>
+
+                            Beyond the realm of coding, I find solace and creativity in the world of art. As a Bengali
+                            writer, singer,
+                            and violinist, I immerse myself in various forms of artistic expression. These artistic
+                            endeavors fuel my
+                            sense of self, enabling me to channel my thoughts, emotions, and ideas into beautiful
+                            creations. <br><br>
+
+                            While I recognize that perfection is a journey rather than a destination, I approach my work
+                            with
+                            unwavering determination. Every project I undertake is a step forward, an opportunity to
+                            learn, grow, and
+                            refine my abilities. My multifaceted interests and unwavering commitment define my path, one
+                            that I tread
+                            with enthusiasm and an open heart. <br><br>
+
+                            Stay tuned for more updates on my journey as I traverse the realms of web development,
+                            cybersecurity, and
+                            the captivating world of art. Your support and encouragement are invaluable as I continue to
+                            evolve and
+                            embrace the opportunities that come my way.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="w-full md:w-1/3 p-2">
+                    <div class="bg-violet-200 p-5 shadow-lg rounded-lg">
+                        <h1 class="text-3xl font-bold mb-4">Skills <i class="fa fa-ghost fa-flip"></i></h1>
+
+                        <h2 class="text-2xl font-semibold mb-2">Technical</h2>
+                        <div class="text-lg"> HTML <br> Bootstrap <br> JavaScript <br> PHP </div>
+                        <br>
+
+                        <h2 class="text-2xl font-semibold mb-2">Soft</h2>
+                        <div class="text-lg"> Writing <br> Music <br> Singing <br> Violin <br> Communication </div>
+                        <br>
+
+                        <h2 class="text-2xl font-semibold mb-2">Language</h2>
+                        <div class="text-lg"> English <br> Bengali </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- * row 3  -->
+        <div class="container mx-auto" id="certifications">
+            <div class="mt-5">
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold">Educational Qualification</h3>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="overflow-x-auto shadow-sm rounded-lg bg-violet-200">
+                    <table class="min-w-full text-center bg-violet-300 rounded-lg">
+                        <thead class="bg-violet-500 text-white">
+                            <tr>
+                                <th scope="col" class="py-3 px-5">Degree</th>
+                                <th scope="col" class="py-3 px-5">Year</th>
+                                <th scope="col" class="py-3 px-5">Subject</th>
+                                <th scope="col" class="py-3 px-5">Institute</th>
+                                <th scope="col" class="py-3 px-5">GPA</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-violet-100">
+                            <tr>
+                                <td class="py-3 px-5">SSC (10th)</td>
+                                <td class="py-3 px-5">2018</td>
+                                <td class="py-3 px-5">Science (PCMB)</td>
+                                <td class="py-3 px-5">WLFSC</td>
+                                <td class="py-3 px-5">4.78/5.00</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-5">HSC (12th)</td>
+                                <td class="py-3 px-5">2020</td>
+                                <td class="py-3 px-5">Science (PCMB)</td>
+                                <td class="py-3 px-5">MPSC</td>
+                                <td class="py-3 px-5">4.75/5.00</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-5">B.Tech</td>
+                                <td class="py-3 px-5">2026</td>
+                                <td class="py-3 px-5">B.Tech (CSE)</td>
+                                <td class="py-3 px-5">LPU</td>
+                                <td class="py-3 px-5">TBA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!--! main body ends -->
+
+
+    <!-- footer  -->
+    <footer class="my-10">
+
+    </footer>
+
+</body>
+
+</html>
