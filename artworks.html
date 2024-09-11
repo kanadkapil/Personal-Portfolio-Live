@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="retro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity=""
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        span {
+            font-family: "Poppins", sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <title>Anush Tup ~ Poem</title>
+</head>
+
+<body>
+
+    <!-- ! header  -->
+    <header>
+        <nav class="fixed bg-gray-400 top-0 left-0 w-full my-1 shadow-lg z-50">
+            <div class="container mx-auto flex items-center justify-between p-4">
+
+                <!-- Brand -->
+                <a class="text-3xl font-bold" href="#page-top">
+                    <div class="divider ">
+                        <label class="swap swap-flip">
+                            <input type="checkbox" />
+                            <div class="swap-off">Kanad Kapil</div>
+                            <div class="swap-on text-center">🖕</div>
+                        </label>
+                    </div>
+                </a>
+
+                <!-- Toggler for Mobile -->
+                <button class=" text-xl md:hidden" type="button" id="navbarToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- Navigation Menu -->
+                <div class="hidden md:flex text-black flex-grow items-center justify-center space-x-4">
+                    <a class=" hover:text-gray-300" href="#portfolio">Portfolio</a>
+                    <a class=" hover:text-gray-300" href="#about">About</a>
+                    <a class=" hover:text-gray-300" href="#details">Details</a>
+                    <a class=" hover:text-gray-300" href="#certifications">Certifications</a>
+                    <a class=" hover:text-gray-300 flex items-center" href="#contact">
+                        <i class="fa-solid fa-phone fa-xs mr-2"></i> Contact
+                    </a>
+                    <a class=" hover:text-gray-300 flex items-center" href="uploads/Kanad Kapil CV.pdf" download>
+                        <button class="btn bg-lime-200 text-black hover:bg-lime-300 py-2 px-4 rounded-lg">Download CV <i
+                                class="fa-solid fa-arrow-down ml-2"></i></button>
+                    </a>
+                </div>
+
+                <!-- Search Form -->
+                <form class="hidden md:flex items-center space-x-2">
+                    <input class="form-input border border-gray-300 rounded-md py-1 px-3 text-black" type="text"
+                        placeholder="Search.....">
+                    <button class="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Collapsible Menu for Mobile -->
+            <div class="md:hidden fixed inset-0 bg-black bg-opacity-50 z-10 hidden" id="navbarCollapse">
+                <div class="flex flex-col items-center justify-between p-4 space-y-4">
+                    <!-- Close Button -->
+                    <button class="self-end text-white text-xl" id="navbarClose">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+
+                    <!-- Mobile Menu Links -->
+                    <div class="flex flex-col items-center space-y-5">
+                        <a class="text-white text-xl hover:text-gray-300" href="#portfolio">Portfolio</a>
+                        <a class="text-white text-xl hover:text-gray-300" href="#about">About</a>
+                        <a class="text-white text-xl hover:text-gray-300" href="#details">Details</a>
+                        <a class="text-white text-xl hover:text-gray-300" href="#certifications">Certifications</a>
+                        <a class="text-white text-xl hover:text-gray-300 flex items-center" href="#contact">
+                            <i class="fa-solid fa-phone fa-xs mr-2"></i> Contact
+                        </a>
+                    </div>
+
+                    <!-- Mobile Search Form -->
+                    <!-- <form class="flex flex-col items-center space-y-2">
+                            <input class="form-input border border-gray-300 rounded-md py-1 px-3 text-black" type="text"
+                                placeholder="Search.....">
+                            <button class="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form> -->
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ! header ends -->
+
+    <div class="my-28"></div>
+
+    <!-- row 1  -->
+    <div class="mx-10">
+        <div class="my-4 gap-4 grid sm:grid-cols-12 grid-cols-1">
+            <!-- left  -->
+            <div class="min-h-[100px] rounded-lg shadow-lg bg-amber-400 sm:col-span-4 py-10">
+                <!--* Profile Picture -->
+                <div class="flex justify-center items-center my-4">
+                    <div class="avatar">
+                        <div class="w-96 lg:w-96 rounded-full shadow-lg">
+                            <img src="PicA.png" alt="Kanad Kapil" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-4xl font-bold text-center">
+                        Anush Tup
+                    </h1>
+                </div>
+            </div>
+
+            <!-- right  -->
+            <div class="min-h-[100px] rounded-lg shadow-lg bg-violet-400 sm:col-span-8">
+
+                <div class="flex items-center justify-center py-36">
+                    <div class="text-center">
+                        <p class="text-7xl font-bold">"আমি তোমার মতোই পরিত্যক্ত।"</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- row 2  -->
+
+    <div class="mx-10">
+        <div class="my-4 gap-4 grid sm:grid-cols-12 grid-cols-1">
+
+            <div class="min-h-[100px] rounded-lg shadow-lg bg-pink-400 sm:col-span-8">
+
+            </div>
+            <div class="min-h-[100px] rounded-lg shadow-lg bg-blue-400 sm:col-span-4">
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
