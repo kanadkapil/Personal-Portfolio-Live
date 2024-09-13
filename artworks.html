@@ -9,23 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity=""
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-        body,
-        p,
-        h1,
-        h2,
-        h3,
-        h4,
-        span {
-            font-family: "Poppins", sans-serif;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+        <link rel="stylesheet" href="style.css">
+        
     <title>Anush Tup ~ Poem</title>
 </head>
 
@@ -148,18 +134,80 @@
 
     <!-- row 2  -->
 
-    <div class="mx-10">
-        <div class="my-4 gap-4 grid sm:grid-cols-12 grid-cols-1">
+    <!--bogo block  -->
+    <section class=" h-screen">
+        <div class="flex h-screen w-full flex-col items-center justify-center p-6 text-slate-400 xl:text-slate-400">
+            <div class="grid h-full w-full grid-cols-1 md:grid-cols-10 gap-4">
+                <!-- Featured Work -->
+                <div
+                    class="h-[300px] md:h-auto col-span-1 md:col-span-4 md:row-span-3 rounded-3xl bg-pink-400 flex justify-center items-center text-xl font-bold text-white">
 
-            <div class="min-h-[100px] rounded-lg shadow-lg bg-pink-400 sm:col-span-8">
+                    <p>
+                        প্রিয় মুখগুলো এভাবেই হারিয়ে যাবে একদিন,<br>
+                        সাহারা মরুর বিভ্রম এর মত।<br>
+                        খেজুর গাছের মত দণ্ডায়মান সম্পর্কগুলো,<br>
+                        পরিণত হবে ধুলোয়।<br>
+                        সূর্যের অকৃপণ কিরণে,<br>
+                        দগ্ধ হবে সহস্র হৃদয়।<br>
+                        শুকিয়ে যাবে ওষ্ঠ,<br>
+                        ঘোলা হবে দিগন্ত।<br>
+                        তাও ভোলা যাবে না<br>
+                        প্রিয় দিনের প্রিয় মুখগুলো।
+                    </p>
+                </div>
+                <!-- Artist Name -->
+                <div
+                    class="h-[300px] md:h-auto col-span-1 md:col-span-5 md:row-span-1 rounded-3xl bg-purple-400 flex justify-center items-center text-3xl font-bold text-white">
+                    Kanad Kapil
+                </div>
 
+                <!-- Photo -->
+                <div
+                    class="h-[300px] md:h-auto col-span-1 md:col-span-1 md:row-span-1 rounded-3xl bg-yellow-400 flex justify-center items-center text-3xl font-bold text-white relative overflow-hidden zoom">
+
+                    <!-- Image 1 -->
+                    <img id="photo-image1" src="uploads/PicA.png" alt="Image 1"
+                        class="absolute w-full h-full object-cover transition-transform duration-500" />
+
+                    <!-- Image 2 -->
+                    <img id="photo-image2" src="uploads/6.jpeg" alt="Image 2"
+                        class="absolute w-full h-full object-cover transition-transform duration-500 hidden" />
+                </div>
+
+
+                <!-- Artwork 1 -->
+                <div
+                    class="h-[300px] md:h-auto col-span-1 md:col-span-2 md:row-span-2 rounded-3xl bg-indigo-400 flex justify-center items-center text-3xl font-bold text-white relative overflow-hidden zoom">
+
+                    <!-- Image 1 -->
+                    <img id="artwork-image1" src="uploads/PicA.png" alt="Image 1"
+                        class="absolute w-full h-full object-cover transition-transform duration-500" />
+
+                    <!-- Image 2 -->
+                    <img id="artwork-image2" src="uploads/6.jpeg" alt="Image 2"
+                        class="absolute w-full h-full object-cover transition-transform duration-500 hidden" />
+                </div>
+
+                <!-- Artwork 2 -->
+                <div
+                    class="h-[300px] md:h-auto col-span-1 md:col-span-4 md:row-span-2 rounded-3xl bg-green-200 flex justify-center items-center text-3xl font-bold text-white">
+                    Artwork 2
+                </div>
+                <!-- Artwork 3 -->
+                <div
+                    class="h-[300px] md:h-auto col-span-1 md:col-span-4 md:row-span-2 rounded-3xl bg-green-400 flex justify-center items-center text-3xl font-bold text-white">
+                    Artwork 3
+                </div>
+                <!-- Contact -->
+                <div
+                    class="h-[300px] md:h-auto col-span-1 md:col-span-6 md:row-span-2 rounded-3xl bg-red-400 flex justify-center items-center text-3xl font-bold text-white">
+                    Contact
+                </div>
             </div>
-            <div class="min-h-[100px] rounded-lg shadow-lg bg-blue-400 sm:col-span-4">
-                
-            </div>
-
         </div>
-    </div>
+    </section>
+
+<script src="script.js"></script>
 
 </body>
 
