@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+span {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling for the flip effect */
+.flip-x {
+    transform: rotateY(360deg);
+    /* Flip along the Y-axis */
+}
+
+/* Define the zoom effect */
+.zoom {
+    transition: transform 0.2s ease;
+    /* Smooth transition for the zoom effect */
+}
+
+/* Zoom in on hover */
+.zoom:hover {
+    transform: scale(1.05);
+    /* Adjust the scale to zoom in or out */
+}
