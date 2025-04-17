@@ -1,13 +1,13 @@
-
 // ! navbar script 
 document.getElementById('navbarToggle').addEventListener('click', function () {
-    document.getElementById('navbarCollapse').classList.toggle('hidden');
+    document.getElementById('navbarCollapse').classList.toggle('hidden'); // Toggle visibility
+    document.getElementById('navbarCollapse').classList.toggle('block'); // Add block when visible
 });
 
 document.getElementById('navbarClose').addEventListener('click', function () {
-    document.getElementById('navbarCollapse').classList.add('hidden');
+    document.getElementById('navbarCollapse').classList.add('hidden'); // Hide navbar when close button is clicked
+    document.getElementById('navbarCollapse').classList.remove('block'); // Remove block class
 });
-
 
 
 //! script for flip 
