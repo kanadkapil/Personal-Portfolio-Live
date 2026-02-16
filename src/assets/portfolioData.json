@@ -1,0 +1,319 @@
+{
+    "profile": {
+        "name": "Kanad Kapil",
+        "work": "Full-Stack Developer • Data Analyst",
+        "profession": "Student",
+        "company": "Lovely Professional University (LPU)",
+        "designation": "B.Tech in Computer Science & Engineering",
+        "location": "Punjab, India / Dhaka, Bangladesh",
+        "images": {
+            "picA": "/assets/PicA.png",
+            "picB": "/assets/PicB.jpg"
+        },
+        "socials": {
+            "github": "https://github.com/kanadkapil",
+            "linkedin": "https://www.linkedin.com/in/kanadkapil/",
+            "gmail": "mailto:kanad.kapil@gmail.com",
+            "instagram": "https://www.instagram.com/kanad.kapil/",
+            "facebook": "https://www.facebook.com/kanad.kapil/",
+            "youtube": "https://www.youtube.com/@kanadkapil",
+            "spotify": "https://open.spotify.com/embed/track/3vkCueOmm7xQDoJ17W1Pm3?utm_source=generator"
+        },
+        "githubStats": {
+            "main": "https://github-readme-stats.vercel.app/api?username=kanadkapil&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true",
+            "topLangs": "https://github-readme-stats.vercel.app/api/top-langs/?username=kanadkapil&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true&layout=compact",
+            "streak": "https://github-readme-streak-stats.herokuapp.com/?user=kanadkapil&theme=blue-green&hide_border=false"
+        }
+    },
+    "about": {
+        "shortBio": "Kanad Kapil is a student and web developer currently pursuing B.Tech (CSE) from Lovely Professional University (LPU), Punjab.",
+        "description": "Kanad Kapil is an enthusiastic, reliable, and self-motivated individual with a passion for building scalable and high-performance web applications. Currently a Final Year B.Tech student, he specializes in modern web technologies including Next.js 15, React, and TypeScript. His technical journey is marked by a unique blend of full-stack engineering and deep data insights, having developed everything from premium e-commerce frontends to complex bio-informatics visualization tools. Beyond the terminal, Kanad is a polymath who finds balance in artistic expression; he is a Bengali writer, singer, and violinist. He believes that the disciplined structure of music and literature directly informs his approach to clean, maintainable, and creative code. Whether optimizing a MERN stack application's SEO-friendly architecture or performing Exploratory Data Analysis for protein sequence analysis, Kanad embraces challenges and works continuously toward his dual goal of industrial excellence and a long-term academic career as a professor.",
+        "sections": [
+            {
+                "title": "Technical Vision",
+                "icon": "Target",
+                "content": "To merge full-stack engineering with deep data insights, building systems that are not just functional but intelligently architected and SEO-optimized."
+            },
+            {
+                "title": "Industry Goals",
+                "icon": "Sparkles",
+                "content": "Seeking hands-on experience in enterprise-scale application development, performance optimization, and data-driven decision systems."
+            },
+            {
+                "title": "Academic Aspirations",
+                "icon": "GraduationCap",
+                "content": "A long-term commitment to research and education, with the ultimate goal of becoming a professor in Computer Science to inspire future engineers."
+            },
+            {
+                "title": "Creative Identity",
+                "icon": "Microscope",
+                "content": "Bengali writer, singer, and violinist. I believe creativity fuels better engineering, structured thinking, and a unique perspective on problem-solving."
+            }
+        ]
+    },
+    "education": [
+        {
+            "degree": "SSC (10th)",
+            "year": "2018",
+            "subject": "Science (PCMB)",
+            "institute": "WLFSC",
+            "gpa": "4.78/5.00"
+        },
+        {
+            "degree": "HSC (12th)",
+            "year": "2020",
+            "subject": "Science (PCMB)",
+            "institute": "MPSC",
+            "gpa": "4.75/5.00"
+        },
+        {
+            "degree": "B.Tech",
+            "year": "2026",
+            "subject": "Computer Science & Engineering",
+            "institute": "Lovely Professional University (LPU)",
+            "gpa": "6.9/10.0"
+        }
+    ],
+    "certificates": [
+        {
+            "title": "Complete 2023 Web Development Bootcamp",
+            "platform": "Udemy",
+            "duration": "61 Hours",
+            "link": "https://github.com/kanadkapil/certificates"
+        },
+        {
+            "title": "Python Programs for Beginners",
+            "platform": "Udemy",
+            "duration": "2 Hours",
+            "link": "https://github.com/kanadkapil/certificates"
+        },
+        {
+            "title": "Front End Developer - HTML",
+            "platform": "Great Learning",
+            "duration": "2 Hours",
+            "link": "https://github.com/kanadkapil/certificates"
+        },
+        {
+            "title": "Types of Cyber Security",
+            "platform": "Great Learning",
+            "duration": "2 Hours",
+            "link": "https://github.com/kanadkapil/certificates"
+        },
+        {
+            "title": "SSO Digital Certificate",
+            "platform": "National",
+            "duration": "2 Hours",
+            "link": "https://www.mysso.gov.bd/"
+        },
+        {
+            "title": "Bangladesh Youth Association for Cancer Awareness",
+            "platform": "BYACA",
+            "duration": "2020 - Present",
+            "link": "#"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages",
+            "icon": "Language",
+            "skills": [
+                "C++",
+                "Python",
+                "JavaScript",
+                "HTML5",
+                "Markdown"
+            ]
+        },
+        {
+            "name": "Database & Query",
+            "icon": "Database",
+            "skills": [
+                "SQL",
+                "MongoDB",
+                "MySQL",
+                "JSON",
+                "CSV"
+            ]
+        },
+        {
+            "name": "Frontend Development",
+            "icon": "Layout",
+            "skills": [
+                "React",
+                "TypeScript",
+                "JavaScript",
+                "Tailwind CSS",
+                "DaisyUI",
+                "Bootstrap",
+                "HTML5",
+                "CSS Modules"
+            ]
+        },
+        {
+            "name": "Backend & Security",
+            "icon": "Database",
+            "skills": [
+                "Node.js",
+                "Express.js",
+                "PHP",
+                "REST APIs",
+                "JWT Authentication",
+                "HTTP-only Cookies",
+                "bcrypt (Hashing)"
+            ]
+        },
+        {
+            "name": "Data Science & AI",
+            "icon": "BarChart3",
+            "skills": [
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Naive Bayes (MNB)",
+                "Scrapy",
+                "Data Cleaning (EDA)"
+            ]
+        },
+        {
+            "name": "Tools & Visualization",
+            "icon": "Wrench",
+            "skills": [
+                "Git & GitHub",
+                "Vercel",
+                "Postman",
+                "D3.js Visualization",
+                "Streamlit",
+                "Seaborn/Matplotlib",
+                "Canva",
+                "VS Code",
+                "Power Bi"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Protein Sequence Analysis",
+            "desc": "A sophisticated EDA and visualization platform for structural bioinformatics, focused on bridging the sequence-structure gap using BiLSTM networks.",
+            "tags": [
+                "React",
+                "Bioinformatics",
+                "EDA"
+            ],
+            "icon": "Microscope",
+            "link": "https://eda-viz-protein-sequence-analysis.vercel.app/"
+        },
+        {
+            "title": "AlgoViz",
+            "desc": "Interactive algorithm visualization platform designed to simplify complex logic through real-time graphical representations of sorting and pathfinding.",
+            "tags": [
+                "React",
+                "TypeScript",
+                "Algorithms"
+            ],
+            "icon": "Binary",
+            "link": "https://algoviz-eta.vercel.app/"
+        },
+        {
+            "title": "React Note Card",
+            "desc": "A productivity-focused note-taking application using a modern card-based UI, optimized for quick reflections and organized data entry.",
+            "tags": [
+                "React",
+                "UI/UX",
+                "Frontend"
+            ],
+            "icon": "StickyNote",
+            "link": "https://react-note-card.vercel.app/"
+        },
+        {
+            "title": "Interactive Profile Card",
+            "desc": "A high-end, glassmorphic profile component showcasing advanced CSS techniques and responsive layout patterns.",
+            "tags": [
+                "HTML",
+                "CSS",
+                "Design"
+            ],
+            "icon": "UserCircle",
+            "link": "https://kanadkapil.github.io/Web-Works-Live/Card/index.html"
+        },
+        {
+            "title": "FlipCards Animation",
+            "desc": "A showcase of pure CSS 3D transformation and flipping animations, demonstrating complex state-driven transitions without heavy JS libraries.",
+            "tags": [
+                "CSS3",
+                "Animation",
+                "HTML5"
+            ],
+            "icon": "Layers",
+            "link": "https://kanadkapil.github.io/Web-Works-Live/FlipCards/index.html"
+        },
+        {
+            "title": "IPL 2025 Bowler Stats",
+            "desc": "Real-time cricket analytics dashboard providing deep insights into bowler performance stats for the 2025 IPL season using Streamlit.",
+            "tags": [
+                "Python",
+                "Streamlit",
+                "Analytics"
+            ],
+            "icon": "BarChart3",
+            "link": "https://ipl-2025-bowler-stats.streamlit.app/"
+        },
+        {
+            "title": "Brainfuck Interpreter",
+            "desc": "A web-based interpreter for the Brainfuck esoteric programming language, featuring real-time memory visualization.",
+            "tags": [
+                "JavaScript",
+                "Logic",
+                "Web"
+            ],
+            "icon": "Brain",
+            "link": "https://kanadkapil.github.io/Web-Works-Live/Brainfuck/index.html"
+        },
+        {
+            "title": "CodeLanguage UI",
+            "desc": "A modular syntax highlighting and code presentation tool designed for educational documentation and technical writing.",
+            "tags": [
+                "HTML",
+                "JavaScript",
+                "Tooling"
+            ],
+            "icon": "Code2",
+            "link": "https://kanadkapil.github.io/Web-Works-Live/CodeLanguage/index.html"
+        }
+    ],
+    "fullWorksLink": "https://kanadkapil.github.io/Web-Works-Live/",
+    "vision": {
+        "manifesto": "Engineering is not just about building things; it's about understanding the fundamental laws that govern logic and data, and using them to solve human-centric problems at scale.",
+        "currentDiving": "Currently diving deep into Large Language Model architectures, Distributed Systems, and the synergies between AI and Web Engineering.",
+        "points": [
+            {
+                "title": "Research Interests",
+                "desc": "Exploring the synergy between Distributed Systems and Machine Learning. Interested in optimizing large-scale data processing pipelines and neural network inference at the edge.",
+                "icon": "Microscope",
+                "tags": [
+                    "Distributed Systems",
+                    "Edge AI",
+                    "Sequence Mining"
+                ]
+            },
+            {
+                "title": "Long-Term Goal: Professor",
+                "desc": "Aspiring to transition into academia to inspire the next generation of engineers. I aim to bridge the gap between high-level theory and industrial-scale implementation.",
+                "icon": "GraduationCap",
+                "tags": [
+                    "Pedagogy",
+                    "Mentorship",
+                    "Research"
+                ]
+            },
+            {
+                "title": "Teaching Philosophy",
+                "desc": "Learning by doing. I believe in structured, project-based education that emphasizes first principles and critical thinking over rote memorization.",
+                "icon": "BrainCircuit",
+                "tags": [
+                    "Project-Based Learning",
+                    "First Principles"
+                ]
+            }
+        ]
+    }
+}
