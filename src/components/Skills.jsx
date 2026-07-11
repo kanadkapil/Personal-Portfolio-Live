@@ -73,7 +73,7 @@ const Skills = () => {
           {/* GitHub Contribution Heat Map */}
           <GithubContribution />
 
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div className="brutal-card bg-yellow-400 p-4 flex items-center justify-center shadow-brutal-lg hover-brutal transition-all">
               <img
                 src={portfolioData.profile.githubStats.main}
@@ -81,20 +81,46 @@ const Skills = () => {
                 className="w-full h-auto border-3 border-black bg-white"
               />
             </div>
-            <div className="flex flex-col gap-8">
-              <div className="brutal-card bg-cyan-400 p-4 flex items-center justify-center shadow-brutal-lg hover-brutal transition-all">
+            <div className="brutal-card bg-cyan-400 p-4 flex items-center justify-center shadow-brutal-lg hover-brutal transition-all">
+              <img
+                src={portfolioData.profile.githubStats.streak}
+                alt="GitHub Streak"
+                className="w-full h-auto border-3 border-black bg-white"
+              />
+            </div>
+            <div className="brutal-card bg-accent p-4 flex items-center justify-center shadow-brutal-lg hover-brutal transition-all">
+              <img
+                src={portfolioData.profile.githubStats.topLangs}
+                alt="Top Languages"
+                className="w-full h-auto border-3 border-black bg-white"
+              />
+            </div>
+            <div className="brutal-card bg-emerald-400 p-6 flex flex-col items-center justify-center shadow-brutal-lg hover-brutal transition-all text-center">
+              <div className="border-3 border-black bg-white p-2 w-[300px] h-[300px] flex-shrink-0 shadow-brutal relative overflow-hidden">
                 <img
-                  src={portfolioData.profile.githubStats.streak}
-                  alt="GitHub Streak"
-                  className="w-full h-auto border-3 border-black bg-white"
+                  src="/assets/KanadKapilGithubQr.png"
+                  alt="GitHub QR Code"
+                  className="w-full h-full object-contain"
                 />
               </div>
-              <div className="brutal-card bg-accent p-4 flex items-center justify-center shadow-brutal-lg hover-brutal transition-all">
-                <img
-                  src={portfolioData.profile.githubStats.topLangs}
-                  alt="Top Languages"
-                  className="w-full h-auto border-3 border-black bg-white"
-                />
+              <div className="mt-4 text-black flex flex-col items-center">
+                <span className="inline-block bg-white text-black font-black uppercase text-xs px-2 py-0.5 border-2 border-black shadow-[2px_2px_0_0_#000] mb-2 -rotate-1">
+                  @kanadkapil
+                </span>
+                <h4 className="text-2xl font-black uppercase italic tracking-tighter">
+                  SCAN OR CLICK
+                </h4>
+                <p className="text-sm font-bold text-black/85 mt-1 max-w-[280px]">
+                  Scan the QR code or click the button below to visit my full GitHub profile and explore my projects!
+                </p>
+                <a
+                  href={portfolioData.profile.socials.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block bg-black text-white hover:bg-white hover:text-black font-black uppercase text-xs tracking-wider px-6 py-2.5 border-3 border-black shadow-[4px_4px_0_0_#000] hover:shadow-none active:translate-x-[2px] active:translate-y-[2px] transition-all"
+                >
+                  GO TO GITHUB &rarr;
+                </a>
               </div>
             </div>
           </div>
